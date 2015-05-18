@@ -1,7 +1,7 @@
-# dakota-tutorial
+# WMT and Dakota
 
-Notes, slides, and examples for the WMT+Dakota clinic
-at the 2015 CSDMS Annual Meeting.
+Notes, slides, and examples for the **WMT and Dakota** clinic at the
+[2015 CSDMS Annual Meeting](http://csdms.colorado.edu/wiki/Form:CSDMS_annual_meeting).
 
 To view the IPython notebooks with `nbviewer`,
 point your browser
