@@ -1,0 +1,23 @@
+# Dakota Input File
+environment
+  tabular_data
+    tabular_data_file = 'dakota.dat'
+
+method
+  vector_parameter_study
+    final_point = 1.1 1.3
+    num_steps = 10
+
+variables
+  continuous_design = 2
+    initial_point = -0.3 0.2
+    descriptors = 'x1' 'x2'
+
+interface
+  analysis_driver = 'rosenbrock'
+    direct
+
+responses
+  objective_functions = 1
+  no_gradients
+  no_hessians
