@@ -45,7 +45,7 @@ def main():
     input_template = 'HYDRO.IN.template'
     input_file = 'HYDRO.IN'
     hypsometry_file = 'HYDRO0.HYPS'
-    output_file = 'HYDROASCII.QB'
+    output_file = 'HYDROASCII.QS'
 
     # Use the parsing utility `dprepro` (from $DAKOTA_DIR/bin) to
     # incorporate the parameters from Dakota into the HydroTrend input

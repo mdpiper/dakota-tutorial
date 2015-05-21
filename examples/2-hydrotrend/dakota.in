@@ -27,9 +27,9 @@ interface
     directory_save 
   file_save  
 
-# Qb = daily bedload at river mouth [kg s-1]
+# Qs = sediment load at river mouth [kg s-1]
 responses
   response_functions = 2
-  response_descriptors = 'Qb_mean', 'Qb_stdev'
+  response_descriptors = 'Qs_mean', 'Qs_stdev'
   no_gradients
   no_hessians
