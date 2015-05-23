@@ -5,7 +5,7 @@ set DAKOTA_DIR=/usr/local/dakota
 setenv PATH /usr/local/ruby/bin:$PATH
 setenv PATH $DAKOTA_DIR/test:$PATH
 setenv PATH $DAKOTA_DIR/bin:$PATH
-setenv PATH $PREFIX/bin
+setenv PATH $PREFIX/bin:$PATH
 setenv PATH $PREFIX/local/bin:$PATH
 setenv PATH $PREFIX/opt/conda/envs/wmt/bin:$PATH
 

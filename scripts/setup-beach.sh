@@ -5,7 +5,7 @@ export DAKOTA_DIR=/usr/local/dakota
 PATH=/usr/local/ruby/bin:$PATH
 PATH=$DAKOTA_DIR/test:$PATH
 PATH=$DAKOTA_DIR/bin:$PATH
-PATH=$PREFIX/bin
+PATH=$PREFIX/bin:$PATH
 PATH=$PREFIX/local/bin:$PATH
 PATH=$PREFIX/opt/conda/envs/wmt/bin:$PATH
 export PATH
